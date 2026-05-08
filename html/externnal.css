@@ -1,5 +1,7 @@
 p {
   color:rgb(41, 211, 32);
   font-size: 18px;
-  
-}
+  }
+  #homeId{
+    color: green;
+  }
