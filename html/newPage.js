@@ -25,9 +25,14 @@ for(let fruit of fruits){
 }
 fruits.push("Guava");
 console.log(fruits);
-fruits.pop();
+let fruit1=fruits.pop();
+console.log(" I am here"+fruit1)
 console.log(fruits);
 fruits.unshift("guava");
 console.log(fruits);
 fruits.shift();
 console.log(fruits);
+
+
+
+
