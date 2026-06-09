@@ -8,4 +8,5 @@ console.log("I am "+age+"years old");
 console.log("I live in "+city);
 console.log("My skill is "+skill);
 console.log("My hobby is "+hobby);
+console.log("rudresh");
 
