@@ -3,13 +3,32 @@
     <head>
         <title>Home page</title>
     
+    </head>
+    <body>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name"><br><br>
+            <label for="PhoneNumber">PhoneNumber</label>
+            <input type="number" id="PhoneNumber" ><br>
+            <label for="age">Age</label>
+            <input type="number" id="age"><br>
+            <label for="location">Location</label>
+            <input type="text" id="location"><br>
+            <label for="email">E-mail</label>
+            <input type="email" id="email"><br>
+
+            <button onclick="validateMsg()">Submit</button>
+</form>
+    </body>
+    
     <script>
-        function validateMsg() {
-            let name = document.getElementById("Name").value;
-            let PhoneNumber = document.getElementById("Name").value;
-            let Age = document.getElementById("Name").value;
-            let Location = document.getElementById("Name").value;
-            let email = document.getElementById("Name").value;
+        function validateMsg() {     
+            let name = document.getElementById("name").value;
+            let PhoneNumber = document.getElementById("PhoneNumber").value;
+            let Age = document.getElementById("age").value;
+            let Location = document.getElementById("location").value;
+            let email = document.getElementById("email").value;
+      
 
             if (name==""){
                 alert("Enter your name");
@@ -26,21 +45,4 @@
             }
         }
     </script>
-    </head>
-    <body>
-        <form>
-            <label for="name">Name</label>
-            <input type="text" id="name"><br><br>
-            <label for="number">PhoneNumber</label>
-            <input type="number" id="number" ><br>
-            <label for="number">Age</label>
-            <input type="number" id="number"><br>
-            <label for="name">Location</label>
-            <input type="text" id="name"><br>
-            <label for="text">E-mail</label>
-            <input type="email" id="text"><br>
-
-            <button onclick="validateMsg()">Submit</button>
-</form>
-    </body>
 </html>
