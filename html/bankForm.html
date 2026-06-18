@@ -32,7 +32,7 @@
 
 <div class="p-4">
 
-<form id="myForm">
+<form id="myForm" >
 
 <h4 class="section-title">Personal Information</h4>
 
@@ -40,31 +40,31 @@
 
 <div class="col-md-6 mb-3">
 <label>Full Name <span class="text-danger" >*</span>:</label>
-<input type="text" class="form-control" id="name" onblur="validate()" >
+<input type="text" class="form-control" id="name" onchange="validateName()" >
 <span id="nameErrorId" class="text-danger"></span>
 </div>
 
 <div class="col-md-6 mb-3">
 <label>Date of Birth <span class="text-danger">*</span>:</label>
-<input type="date" class="form-control" id="dob">
+<input type="date" class="form-control" id="dob" onchange="validateDob()">
 <span id="DateOfBirthErrorId" class="text-danger"></span>
 </div>
 
 <div class="col-md-6 mb-3">
 <label>Phone Number <span class="text-danger">*</span>:</label>
-<input type="text" class="form-control" id="phone">
+<input type="number" class="form-control" id="phone" onchange="validatePhoneNumber()">
 <span id="PhoneNumberErrorId" class="text-danger"></span>
 </div>
 
 <div class="col-md-6 mb-3">
 <label>Email Address <span class="text-danger">*</span>:</label>
-<input type="email" class="form-control" id="email">
+<input type="email" class="form-control" id="email" onchange="validateEmail()">
 <span id="EmailErrorId" class="text-danger"></span>
 </div>
 
 <div class="col-12 mb-3">
 <label>Address <span class="text-danger">*</span>:</label>
-<input type="text" class="form-control" id="address">
+<input type="text" class="form-control" id="address" onchange="validateAddress()">
 <span id="AddressErrorId" class="text-danger"></span>
 </div>
 
