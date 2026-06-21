@@ -23,6 +23,7 @@ let user = {
 };
 console.log(user.skills[2]);
 console.log(user.skills);
+console.log(user.city)
 
 let users = [
   { id: 1, name: "Alice", role: "Admin" },
@@ -32,4 +33,5 @@ let users = [
 console.log(users[0]);
 console.log(users[1].role);
 console.log(users[2].role);
-console.log(users[3].role);
+
+
