@@ -24,6 +24,7 @@ let user = {
 console.log(user.skills[2]);
 console.log(user.skills);
 console.log(user.city)
+console.log(user.age)
 
 let users = [
   { id: 1, name: "Alice", role: "Admin" },
