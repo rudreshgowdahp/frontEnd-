@@ -22,6 +22,8 @@ let user = {
   skills: ["JavaScript", "Python", "HTML"] // Array inside the object
 };
 console.log(user.skills[2]);
+console.log(user.skills[0]);
+
 console.log(user.skills);
 console.log(user.city)
 console.log(user.age)
