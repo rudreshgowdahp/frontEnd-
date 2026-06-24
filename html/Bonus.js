@@ -23,7 +23,7 @@ let user = {
 };
 console.log(user.skills[2]);
 console.log(user.skills[0]);
-
+console.log(user.skills[1]);
 console.log(user.skills);
 console.log(user.city)
 console.log(user.age)
