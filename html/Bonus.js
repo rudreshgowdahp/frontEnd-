@@ -31,8 +31,7 @@ console.log(user.age)
 let users = [
   { id: 1, name: "Alice", role: "Admin" },
   { id: 2, name: "Bob", role: "User" },
-  { id: 3, name: "Charlie", role: "User" }
-];
+  { id: 3, name: "Charlie", role: "User" }];
 console.log(users[0]);
 console.log(users[1].role);
 console.log(users[2].role);
