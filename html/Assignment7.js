@@ -5,4 +5,4 @@ let mileage  = 14;
 console.log("The bike name is "+ bikeName);
 console.log("The bike Price is "+ bikePrice);
 console.log("The bike is electric "+ isElectric);
-console.log("The bike mileage is "+ mileage);
+console.log(bikeName);
