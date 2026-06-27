@@ -7,3 +7,4 @@ console.log("The bike Price is "+ bikePrice);
 console.log("The bike is electric "+ isElectric);
 console.log(bikeName);
 console.log(bikePrice);
+console.log(isElectric)
