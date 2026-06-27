@@ -5,3 +5,4 @@ let x=10;
 }
 console.log("ridra");
 // i predicted output is x= 20;
+console.log("Rudra");
