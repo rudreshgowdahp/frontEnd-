@@ -9,4 +9,3 @@ console.log("I live in "+city);
 console.log("My skill is "+skill);
 console.log("My hobby is "+hobby);
  console.log("r");
-  console.log("r");
