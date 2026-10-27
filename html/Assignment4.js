@@ -7,4 +7,4 @@
  console.log(a); // reference error a is not defined
 console.log(b);  // reference error a is not defined
 console.log(c);  // it is working
-
+console.log("rudra");
