@@ -7,5 +7,4 @@ console.log("ridra");
 // i predicted output is x= 20;
 console.log("rudra");
 console.log("Rudra");
-console.log("Rudra");
 
