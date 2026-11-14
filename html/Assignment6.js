@@ -6,5 +6,4 @@
      console.log(student); //error
     console.log(college);  //works
 }
-     console.log("Rufdra"); //error
 
